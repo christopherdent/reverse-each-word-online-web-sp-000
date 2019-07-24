@@ -9,4 +9,4 @@ def reverse_each_word(string)
 
 end
 
-reverse_each_word(string)
+puts reverse_each_word(string)
