@@ -1,8 +1,13 @@
 
 def reverse_each_word(string)
 
-words = string.split 
-  string.reverse #{"I", 'wanna', "go"}
+words = string.split #{"I", 'wanna', "go"}
+
+rever = words.map do |word|
+  
+  word.reverse
+  
+end
   
   
 
