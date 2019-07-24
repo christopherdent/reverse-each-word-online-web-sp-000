@@ -1,4 +1,3 @@
-string = "I am so smart, SMRT!"
 
 def reverse_each_word(string)
   
