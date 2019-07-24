@@ -1,9 +1,9 @@
 
 def reverse_each_word(string)
 
-  words = string.split #{"I", 'wanna', "go"}
+  array_of_words = string.split #{"I", 'wanna', "go"}
 
-  rev = words.collect do |word|
+  rev = array_of_words.collect do |word|
     word.reverse
   end
   
